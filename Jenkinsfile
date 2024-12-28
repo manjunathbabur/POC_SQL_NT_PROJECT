@@ -16,7 +16,7 @@ pipeline {
         stage('Select Environment') {
             steps {
                 script {
-                    if (env.BRANCH_NAME == 'dev') {
+                    if (env.BRANCH_NAME == 'origin/dev') {
                         ENV_FILE = 'config/dev.env'
                     } else if (env.BRANCH_NAME == 'test') {
                         ENV_FILE = 'config/test.env'
