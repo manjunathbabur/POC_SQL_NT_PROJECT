@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        SNOWSQL_PATH = 'C:\Program Files\Snowflake SnowSQL\snowsql.exe'
+        SNOWSQL_PATH = 'C:\\Program Files\\Snowflake SnowSQL\\snowsql.exe'
         ENV_FILE = " "
     }
 
