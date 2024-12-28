@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('Checkout Code') {
             steps {
-                git branch:'dev',url:''
+                git branch:'dev',url:'https://github.com/manjunathbabur/POC_SQL_NT_PROJECT.git'
             }
         }
 
